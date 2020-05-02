@@ -1,0 +1,5 @@
+set x 10
+print x
+help
+print x
+help
