@@ -17,9 +17,9 @@ The OS Boot Sequence to create some necessary OS structures
 The Memory Manager to handle memory allocation for processes 
 * Launcher
   * Loads new programs to the run-time environment 
-* PCBModifications
+* PCB Modifications
   * Addition of the page table 
-* PageFault
+* Page Fault
   * Find page, swap in, select victim, we will not do a swap out 
-* TaskSwitchadditions
+* Task Switch Additions
   * Generate Page Fault and properly assigns addresses
